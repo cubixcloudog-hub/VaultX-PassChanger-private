@@ -1,0 +1,15 @@
+{
+  "total_processed": 28,
+  "total_success": 3,
+  "total_failed": 25,
+  "users_served": {
+    "1422683677212540951": {
+      "processed": 2,
+      "success": 0
+    },
+    "1158028389962219611": {
+      "processed": 98,
+      "success": 23
+    }
+  }
+}
