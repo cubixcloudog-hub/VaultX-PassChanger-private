@@ -1,0 +1,23 @@
+{
+  "bot_name": "VaultX Recovery",
+  "footer": "VaultX Premium System",
+  "embed_color": 8087790,
+
+  "admin_id": 1158028389962219611,
+
+  "license_key": "VAULTXYG-0001",
+
+  "branding": {
+    "author_name": "VaultX",
+    "support_text": "Premium Recovery System",
+    "success_text": "Operation Completed Successfully",
+    "error_text": "Something went wrong",
+    "loading_text": "Processing request..."
+  },
+
+  "features": {
+    "enable_logs": true,
+    "enable_fast_mode": true,
+    "show_progress": true
+  }
+}
