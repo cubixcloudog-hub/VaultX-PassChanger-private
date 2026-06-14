@@ -373,7 +373,7 @@ class BotDataManager:
 #  BOT SETUP
 # ═══════════════════════════════════════════════
 def generate_elite_password():
-    return "AthrCloud" + ''.join([str(random.randint(0, 9)) for _ in range(6)])
+    return "VaultX" + ''.join([str(random.randint(0, 9)) for _ in range(6)])
 
 intents = discord.Intents.default()
 intents.message_content = True
