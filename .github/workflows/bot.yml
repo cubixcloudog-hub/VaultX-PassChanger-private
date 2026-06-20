@@ -1,45 +1,33 @@
-```yaml
 name: Run Bot
-
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-
 jobs:
   run-bot:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
       - uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-
       - name: Configure git for auto-save
         run: |
           git config --global user.email "bot@vaultx.auto"
           git config --global user.name "VaultX Bot"
           git config --global push.default current
-
       - name: Install Chrome
         run: |
           sudo apt-get update
           sudo apt-get install -y chromium-browser chromium-chromedriver
-
       - name: Install dependencies
         run: pip install discord.py selenium webdriver-manager requests Pillow pycountry python-dotenv frozenlist aiohttp outcome trio
-
       - name: Run bot
         env:
           DISCORD_TOKEN: ${{ secrets.BOT_TOKEN }}
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
         run: python passchanger.py ${{ secrets.BOT_TOKEN }}
-```
