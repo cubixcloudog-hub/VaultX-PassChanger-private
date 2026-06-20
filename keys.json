@@ -2,9 +2,9 @@
   "VAULTX-71OW-E7C2-2CPM": {
     "plan": "lifetime",
     "created_at": "2026-06-20 10:02:50.938686",
-    "redeemed": false,
-    "redeemed_by": null,
-    "redeemed_at": null,
+    "redeemed": true,
+    "redeemed_by": "1128726626453168259",
+    "redeemed_at": "2026-06-20 10:03:17.841986",
     "expires_at": null
   }
 }
