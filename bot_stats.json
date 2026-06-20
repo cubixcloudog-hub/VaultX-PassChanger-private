@@ -1,7 +1,7 @@
 {
-  "total_processed": 56,
+  "total_processed": 57,
   "total_success": 4,
-  "total_failed": 52,
+  "total_failed": 53,
   "users_served": {
     "1422683677212540951": {
       "processed": 2,
@@ -12,7 +12,7 @@
       "success": 23
     },
     "1128726626453168259": {
-      "processed": 19,
+      "processed": 20,
       "success": 0
     },
     "1255168097975926966": {
