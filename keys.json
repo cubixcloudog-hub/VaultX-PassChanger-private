@@ -22,5 +22,13 @@
     "redeemed_by": "1446922584070426826",
     "redeemed_at": "2026-06-20 12:45:55.144588",
     "expires_at": "2026-06-21 12:45:55.144573"
+  },
+  "VAULTX-EZJ2-3N7L-B8DG": {
+    "plan": "1day",
+    "created_at": "2026-06-21 08:26:37.573050",
+    "redeemed": false,
+    "redeemed_by": null,
+    "redeemed_at": null,
+    "expires_at": null
   }
 }
